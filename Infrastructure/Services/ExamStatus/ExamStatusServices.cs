@@ -63,18 +63,26 @@ namespace Infrastructure.Services
         }
 
 
-        public async Task<List<Trainee>> TopTwo(Guid Id, CancellationToken cancletionToken)
+        public async Task<List<Trainee>> TopTwo(Guid groupId, CancellationToken cancellationToken)
         {
             var topTwo = await _context.ExamStatuses
-               .Where(es => es.Trainee.GroupId == Id)
-               .OrderBy(es => es.Grade)
-               .Select(es => es.Trainee)
-               .Take(2)
-               .ToListAsync();
+                .Where(es => es.Trainee.GroupId == groupId)
+                .GroupBy(es => es.Trainee) 
+                .Select(g => new
+                {
+                    Trainee = g.Key,
+                    TotalGrade = g.Sum(es => es.Grade) 
+                })
+                .OrderByDescending(x => x.TotalGrade) 
+                .Take(2) 
+                .Select(x => x.Trainee) 
+                .ToListAsync(cancellationToken);
 
             return topTwo;
-
         }
+
 
     }
 }
+
+

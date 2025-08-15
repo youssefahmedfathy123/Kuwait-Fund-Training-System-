@@ -102,12 +102,20 @@ namespace Infrastructure.Services
             if (recod == null)
                 return Result.Failure<string>(new Error("NOTFOUND", $"Record with {LeaveId} is not found"));
 
+
+
             if (status == LeaveStatus.Pending)
                 return Result.Failure<string>(new Error("Pending??", "Can't be pending!"));
 
+
+
             var phase = recod.Trainee?.Group?.Batch?.Phase;
+
+
             if (phase == null)
                 return Result.Failure<string>(new Error("INVALID_DATA", "Phase information is missing"));
+
+
 
             if (status == LeaveStatus.Approved)
             {
@@ -139,6 +147,9 @@ namespace Infrastructure.Services
 
             return Result.Success("Success operation!");
         }
+
+
+
 
         public async Task<Leave> FindById(Guid id, CancellationToken cancletionToken)
         {
