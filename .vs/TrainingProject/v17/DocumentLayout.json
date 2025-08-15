@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\TrainingProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58245642-1433-4F14-80A0-EA462E785FAE}|TrainingProject\\TrainingProject.csproj|e:\\projects\\trainingproject\\trainingproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58245642-1433-4F14-80A0-EA462E785FAE}|TrainingProject\\TrainingProject.csproj|solutionrelative:trainingproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58245642-1433-4F14-80A0-EA462E785FAE}|TrainingProject\\TrainingProject.csproj|e:\\projects\\trainingproject\\trainingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58245642-1433-4F14-80A0-EA462E785FAE}|TrainingProject\\TrainingProject.csproj|solutionrelative:trainingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58245642-1433-4F14-80A0-EA462E785FAE}|TrainingProject\\TrainingProject.csproj|e:\\projects\\trainingproject\\trainingproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58245642-1433-4F14-80A0-EA462E785FAE}|TrainingProject\\TrainingProject.csproj|solutionrelative:trainingproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F71A22-8E55-4754-A734-238060236D24}|Presentation\\Presentation.csproj|e:\\projects\\trainingproject\\presentation\\controllers\\hr\\hrsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F71A22-8E55-4754-A734-238060236D24}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\hr\\hrsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\TrainingProject\\TrainingProject\\Program.cs",
+              "RelativeDocumentMoniker": "TrainingProject\\Program.cs",
+              "ToolTip": "E:\\Projects\\TrainingProject\\TrainingProject\\Program.cs",
+              "RelativeToolTip": "TrainingProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:38:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Projects\\TrainingProject\\TrainingProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TrainingProject\\appsettings.Development.json",
+              "ToolTip": "E:\\Projects\\TrainingProject\\TrainingProject\\appsettings.Development.json",
+              "RelativeToolTip": "TrainingProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-15T14:33:59.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projects\\TrainingProject\\TrainingProject\\appsettings.json",
+              "RelativeDocumentMoniker": "TrainingProject\\appsettings.json",
+              "ToolTip": "E:\\Projects\\TrainingProject\\TrainingProject\\appsettings.json",
+              "RelativeToolTip": "TrainingProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-15T14:33:54.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HrSystemController.cs",
+              "DocumentMoniker": "E:\\Projects\\TrainingProject\\Presentation\\Controllers\\Hr\\HrSystemController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\Hr\\HrSystemController.cs",
+              "ToolTip": "E:\\Projects\\TrainingProject\\Presentation\\Controllers\\Hr\\HrSystemController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\Hr\\HrSystemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:32:28.135Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

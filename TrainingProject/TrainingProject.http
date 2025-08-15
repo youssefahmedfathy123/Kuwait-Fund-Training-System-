@@ -1,0 +1,6 @@
+@TrainingProject_HostAddress = https://localhost:7293
+
+GET {{TrainingProject_HostAddress}}/api/Trainee
+Accept: application/json
+
+###
